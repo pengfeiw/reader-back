@@ -1,0 +1,35 @@
+{
+    "name": "express-typescript",
+    "version": "1.0.0",
+    "main": "./src/app.ts",
+    "devDependencies": {
+        "@types/express": "^4.17.11",
+        "@types/jsonwebtoken": "^8.5.0",
+        "@types/node": "^14.14.31",
+        "nodemon": "^2.0.7",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.5"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "md5": "^2.3.0",
+        "mongoose": "^5.11.17",
+        "multer": "^1.4.2",
+        "nodemailer": "^6.5.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon src/app.ts",
+        "dev:debug": "nodemon --inspect=0.0.0.0:9300 src/app.ts",
+        "clean": "rm -r dist",
+        "doc": "apidoc -i src/ -o public/apidoc/"
+    },
+    "keywords": [
+        "VS Code",
+        "TypeScript",
+        "Debugging"
+    ],
+    "author": "Wang Pengfei",
+    "license": "MIT"
+}

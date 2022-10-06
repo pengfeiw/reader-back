@@ -1,0 +1,17 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "personal blog website api documention",
+  "template": {
+    "forceLanguage": "zh_cn"
+  },
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2021-03-19T05:59:59.729Z",
+    "url": "https://apidocjs.com",
+    "version": "0.26.0"
+  }
+}
